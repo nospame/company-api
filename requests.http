@@ -1,7 +1,7 @@
 GET http://localhost:3000/employees
 
 ###
-GET http://localhost:3000/employees/6
+GET http://localhost:3000/employees/1
 
 ###
 POST http://localhost:3000/employees
@@ -17,7 +17,7 @@ content-type: application/json
 }
 
 ###
-PATCH http://localhost:3000/employees/5
+PATCH http://localhost:3000/employees/1
 content-type: application/json
 
 {
@@ -25,4 +25,4 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:3000/employees/6
+DELETE http://localhost:3000/employees/1
